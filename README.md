@@ -1,11 +1,12 @@
-#Bamazon Customer
+# Bamazon Customer
 
-##Getting Started
+## Getting Started
+
 `npm install`
 
 `node bamazonCustomer.js`
 
-##Instructions
+## Instructions
 You will first start off with a table of all available products. After reading through the list, make a decison on what product you would like to purchase. You will be given a prompt asking the ID of the desired product. Enter number and hit "enter." You'll then be prompted with another question regarding to the quantity of the product you would like to purchase.
 
 If there is enough in stock to fulfill your order, then you'll get see the total cost of your transaction.
