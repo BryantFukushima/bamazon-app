@@ -37,7 +37,6 @@ function runApp() {
 
         ]).then(function(data) {
         	var query = connection.query("SELECT * FROM products", function(err, show_items) {
-        		console.log(show_items);
             var stockNum = show_items[data.buyID - 1].stock_quantity;
             var newStock = stockNum - data.amount;
             if (stockNum < data.amount) {
