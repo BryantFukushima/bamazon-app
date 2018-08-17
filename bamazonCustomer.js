@@ -27,7 +27,7 @@ function runApp() {
         inquirer.prompt([{
                 type: "input",
                 name: "buyID",
-                message: "Select item ID of the product you would like to purchase.",
+                message: "Item ID:",
             },
             {
                 type: "input",
